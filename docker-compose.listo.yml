@@ -1,0 +1,16 @@
+# docker compose -p listo -f docker-compose.listo.yml up -d
+services:
+  listo-app:
+    build:
+      dockerfile: ./app/listo.dockerfile
+    container_name: listo.app
+    working_dir: /app
+    ports:
+      - "8081:8081"
+    volumes:
+      # Maps your custom local folder to /app in the container
+      # Replace './my-custom-folder' with your actual path
+      - ./app/src:/app
+    environment:
+      - NODE_ENV=development
+    command: tail -f /dev/null
