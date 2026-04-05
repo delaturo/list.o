@@ -1,0 +1,7 @@
+{
+  "name": "list.o",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

@@ -1,0 +1,79 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build output
+dist/
+dist-ssr/
+build/
+coverage/
+
+# TypeScript compiled output
+*.tsbuildinfo
+.tsc-cache/
+
+# Vite
+.vite/
+
+# Testing
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+.nyc_output/
+.coverage/
+coverage/
+
+# Vitest
+.vitest/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.eslintcache
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.zip
+
+# Capacitor (Mobile Development)
+capacitor.config.dev.ts
+capacitor.config.prod.ts
+/ios/
+/android/
+/www/
+.capacitor/
+
+# Logs
+logs/
+*.log
+
+# Misc
+.cache/
+*.bak
+*.tmp
+.turbo/
