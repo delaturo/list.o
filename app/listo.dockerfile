@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Expo CLI globally
-RUN npm install -g expo-cli
+RUN npm install -g @ionic/cli
 
 # Copy package files first to leverage Docker cache
 # COPY package*.json ./
